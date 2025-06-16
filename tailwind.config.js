@@ -4,30 +4,30 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
-        primary: '#4F46E5',
-        secondary: '#7C3AED',
-        accent: '#10B981',
+        primary: '#8B7CF6',
+        secondary: '#F472B6',
+        accent: '#6EE7B7',
         surface: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a'
+          50: '#faf9fb',
+          100: '#f4f2f7',
+          200: '#e9e4ef',
+          300: '#d4cce0',
+          400: '#a89bb5',
+          500: '#7c6f85',
+          600: '#5d5366',
+          700: '#453c4a',
+          800: '#2e2832',
+          900: '#1a161c'
         },
-        card: '#1F2937',
-        background: '#111827',
-        success: '#10B981',
-        warning: '#F59E0B',
-        error: '#EF4444',
-        info: '#3B82F6'
+        card: '#2a2330',
+        background: '#1a161c',
+        success: '#6EE7B7',
+        warning: '#FBBF85',
+        error: '#FCA5A5',
+        info: '#93C5FD'
       },
       fontFamily: {
         display: ['Bebas Neue', 'ui-sans-serif', 'system-ui'],
