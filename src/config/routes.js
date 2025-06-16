@@ -16,7 +16,7 @@ plan: {
     id: 'plan',
     label: 'Plan',
     path: '/plan',
-    icon: 'ClipboardList',
+    icon: 'Calendar',
     component: Plan
   },
 track: {
