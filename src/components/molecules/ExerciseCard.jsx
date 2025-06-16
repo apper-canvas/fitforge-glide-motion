@@ -69,13 +69,13 @@ const ExerciseCard = ({
 
         <div className="pr-12">
           {/* Exercise name */}
-<h3 className="text-lg font-semibold text-surface-950 mb-2 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-2 font-display">
             {exercise.name}
           </h3>
 
           {/* Exercise details */}
           <div className="flex flex-wrap gap-3 mb-3">
-<div className="flex items-center gap-1 text-surface-950">
+<div className="flex items-center gap-1 text-text-readable-primary">
               <ApperIcon name="Repeat" size={16} />
               <span className="text-sm">
                 {exercise.sets} × {exercise.reps}
@@ -83,13 +83,13 @@ const ExerciseCard = ({
             </div>
             
             {exercise.weight > 0 && (
-              <div className="flex items-center gap-1 text-surface-950">
+              <div className="flex items-center gap-1 text-text-readable-primary">
                 <ApperIcon name="Weight" size={16} />
                 <span className="text-sm">{exercise.weight}kg</span>
               </div>
             )}
             
-            <div className="flex items-center gap-1 text-surface-950">
+            <div className="flex items-center gap-1 text-text-readable-primary">
               <ApperIcon name="Timer" size={16} />
               <span className="text-sm">{exercise.rest}s rest</span>
             </div>

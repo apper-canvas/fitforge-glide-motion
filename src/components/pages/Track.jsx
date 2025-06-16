@@ -233,23 +233,23 @@ const Track = () => {
             progress={progress}
             size={120}
             strokeWidth={8}
-            color="#059669"
+            color="#27AE60"
           >
             <div className="text-center">
-<div className="text-lg font-bold text-surface-950 font-display">
+<div className="text-lg font-bold text-text-readable-primary font-display">
                 {currentExerciseIndex + 1}/{workout.exercises.length}
               </div>
-              <div className="text-xs text-surface-800">exercises</div>
+              <div className="text-xs text-text-readable-secondary">exercises</div>
             </div>
           </ProgressRing>
         </div>
 
         {/* Current Exercise Info */}
         <div className="text-center">
-<h2 className="text-xl font-semibold text-surface-950 mb-1 font-display">
+<h2 className="text-xl font-semibold text-text-readable-primary mb-1 font-display">
             {currentExercise.name}
           </h2>
-          <p className="text-surface-800">
+          <p className="text-text-readable-secondary">
             Exercise {currentExerciseIndex + 1} of {workout.exercises.length}
           </p>
         </div>
@@ -277,8 +277,8 @@ const Track = () => {
         </AnimatePresence>
 
         {/* Exercise Queue */}
-        <div className="bg-card rounded-2xl p-4 border border-surface-600">
-<h3 className="text-sm font-medium text-surface-950 mb-3">
+<div className="bg-card rounded-2xl p-4 border border-surface-300">
+<h3 className="text-sm font-medium text-text-readable-primary mb-3">
             Up Next
           </h3>
           
@@ -293,10 +293,10 @@ const Track = () => {
                 </div>
                 
                 <div className="flex-1 min-w-0">
-<h4 className="text-sm font-medium text-surface-950 truncate">
+<h4 className="text-sm font-medium text-text-readable-primary truncate">
                     {exercise.name}
                   </h4>
-                  <p className="text-xs text-surface-800">
+                  <p className="text-xs text-text-readable-secondary">
                     {exercise.sets} × {exercise.reps}
                   </p>
                 </div>
@@ -313,10 +313,10 @@ const Track = () => {
             </div>
             
             <div>
-<h4 className="text-sm font-semibold text-surface-950 mb-1">
+<h4 className="text-sm font-semibold text-text-readable-primary mb-1">
                 Form Tip for {currentExercise.name}
               </h4>
-              <p className="text-xs text-surface-950">
+              <p className="text-xs text-text-readable-secondary">
                 Keep your core engaged and maintain proper breathing throughout the movement.
               </p>
             </div>

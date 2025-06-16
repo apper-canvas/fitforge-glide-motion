@@ -13,7 +13,7 @@ const Layout = () => {
 
   if (isSetupPage) {
     return (
-      <div className="h-screen bg-background overflow-hidden">
+<div className="h-screen bg-background overflow-hidden">
         <main className="flex-1 overflow-y-auto">
           <Outlet />
         </main>
@@ -22,7 +22,7 @@ const Layout = () => {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-background overflow-hidden">
+<div className="h-screen flex flex-col bg-background overflow-hidden">
       {/* Main Content */}
       <main className="flex-1 overflow-y-auto">
         <Outlet />

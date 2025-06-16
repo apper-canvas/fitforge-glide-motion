@@ -33,7 +33,7 @@ const WorkoutHeader = ({
       {/* Header info */}
       <div className="flex justify-between items-start mb-4">
         <div>
-<h1 className="text-2xl font-bold text-surface-950 mb-1 font-display">
+<h1 className="text-2xl font-bold text-text-readable-primary mb-1 font-display">
             Today's Workout
           </h1>
           <p className="text-surface-300">

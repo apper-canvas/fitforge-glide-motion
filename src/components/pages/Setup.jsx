@@ -119,7 +119,7 @@ const Setup = () => {
       exit={{ opacity: 0, x: -20 }}
     >
       <div className="text-center mb-8">
-<h2 className="text-3xl font-bold text-surface-950 mb-2 font-display">
+<h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
           What are your fitness goals?
         </h2>
         <p className="text-surface-300">
@@ -148,7 +148,7 @@ const Setup = () => {
               </div>
               
               <div className="flex-1">
-<h3 className="text-lg font-semibold text-surface-950 mb-1">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-1">
                   {goal.name}
                 </h3>
                 <p className="text-sm text-surface-400">
@@ -184,7 +184,7 @@ const Setup = () => {
       exit={{ opacity: 0, x: -20 }}
     >
       <div className="text-center mb-8">
-<h2 className="text-3xl font-bold text-surface-950 mb-2 font-display">
+<h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
           What equipment do you have?
         </h2>
         <p className="text-surface-300">
@@ -211,7 +211,7 @@ const Setup = () => {
               />
             </div>
             
-<h3 className="text-sm font-medium text-surface-950">
+<h3 className="text-sm font-medium text-text-readable-primary">
               {equipment.name}
             </h3>
             
@@ -253,7 +253,7 @@ const Setup = () => {
       exit={{ opacity: 0, x: -20 }}
     >
       <div className="text-center mb-8">
-<h2 className="text-3xl font-bold text-surface-950 mb-2 font-display">
+<h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
           Set your schedule
         </h2>
         <p className="text-surface-300">
@@ -265,7 +265,7 @@ const Setup = () => {
         {/* Days per week */}
         <Card>
           <div className="mb-4">
-<h3 className="text-lg font-semibold text-surface-950 mb-2">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-2">
               How many days per week?
             </h3>
             <div className="grid grid-cols-7 gap-2">
@@ -364,7 +364,7 @@ const Setup = () => {
             <ApperIcon name="Dumbbell" size={32} className="text-white" />
           </motion.div>
           
-<h1 className="text-4xl font-bold text-surface-950 mb-2 font-display">
+<h1 className="text-4xl font-bold text-text-readable-primary mb-2 font-display">
             Welcome to FitForge AI
           </h1>
           <p className="text-surface-300">

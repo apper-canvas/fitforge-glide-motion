@@ -46,13 +46,13 @@ const SetTracker = ({
     >
       <Card variant="primary" className="text-center">
         <div className="mb-4">
-<h3 className="text-xl font-bold text-surface-950 mb-1 font-display">
+<h3 className="text-xl font-bold text-text-readable-primary mb-1 font-display">
             {exercise.name}
           </h3>
-          <p className="text-surface-950">
+          <p className="text-text-readable-primary">
             Set {currentSet} of {exercise.sets}
           </p>
-          <p className="text-sm text-surface-950">
+          <p className="text-sm text-text-readable-secondary">
             Target: {targetReps} reps {weight > 0 && `@ ${weight}kg`}
           </p>
         </div>
@@ -107,7 +107,7 @@ const SetTracker = ({
                 placeholder="0"
                 className="text-center text-2xl font-bold"
               />
-<p className="text-xs text-surface-950 mt-1">reps</p>
+<p className="text-xs text-text-readable-secondary mt-1">reps</p>
             </div>
             
             <Button

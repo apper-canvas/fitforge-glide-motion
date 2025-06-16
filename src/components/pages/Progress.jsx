@@ -160,7 +160,7 @@ const Progress = () => {
     return (
       <Card>
         <div className="mb-4">
-<h3 className="text-lg font-semibold text-surface-950 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary font-display">
             Workout Calendar
           </h3>
           <p className="text-sm text-surface-400">
@@ -170,7 +170,7 @@ const Progress = () => {
         
         <div className="grid grid-cols-7 gap-1">
           {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map(day => (
-<div key={day} className="text-xs text-surface-950 text-center p-1 font-medium">
+<div key={day} className="text-xs text-text-readable-primary text-center p-1 font-medium">
               {day}
             </div>
           ))}
@@ -258,7 +258,7 @@ const Progress = () => {
         {/* Header */}
         <div className="flex justify-between items-center">
             <div>
-                <h1 className="text-2xl font-bold text-surface-950 font-display">Your Progress
+<h1 className="text-2xl font-bold text-text-readable-primary font-display">Your Progress
                                 </h1>
                 <p className="text-surface-400">Track your fitness journey and achievements
                                 </p>
@@ -311,7 +311,7 @@ const Progress = () => {
         {/* Recent Workouts */}
         <Card>
             <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-semibold text-surface-950 font-display">Recent Workouts
+<h3 className="text-lg font-semibold text-text-readable-primary font-display">Recent Workouts
                                 </h3>
                 <Button variant="ghost" size="sm" icon="History">View All
                                 </Button>
@@ -357,7 +357,7 @@ const Progress = () => {
         </Card>
         {/* Achievement Badges */}
         <Card>
-            <h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">Achievements
+<h3 className="text-lg font-semibold text-text-readable-primary mb-4 font-display">Achievements
                           </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[{

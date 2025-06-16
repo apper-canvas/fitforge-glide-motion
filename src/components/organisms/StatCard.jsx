@@ -68,10 +68,10 @@ const StatCard = ({
 
           {/* Value */}
           <div className="mb-2">
-<h3 className="text-2xl font-bold text-surface-950 font-display">
+<h3 className="text-2xl font-bold text-text-readable-primary font-display">
               {value}
             </h3>
-            <p className="text-surface-950 text-sm">
+            <p className="text-text-readable-primary text-sm">
               {title}
             </p>
           </div>

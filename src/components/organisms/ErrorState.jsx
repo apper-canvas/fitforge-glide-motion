@@ -27,7 +27,7 @@ const ErrorState = ({
         />
       </motion.div>
       
-<h3 className="text-xl font-semibold text-surface-950 mb-2 font-display">
+<h3 className="text-xl font-semibold text-text-readable-primary mb-2 font-display">
         {message}
       </h3>
       

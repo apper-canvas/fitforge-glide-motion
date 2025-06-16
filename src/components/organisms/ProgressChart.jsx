@@ -47,7 +47,7 @@ const ProgressChart = ({
           }
         }
       },
-colors: ['#B19CD9', '#7FB3D3', '#A7E2CC', '#F4D19B'],
+colors: ['#27AE60', '#F39C12', '#27AE60', '#F39C12'],
       stroke: {
         curve: 'smooth',
         width: 3
@@ -108,7 +108,7 @@ colors: ['#B19CD9', '#7FB3D3', '#A7E2CC', '#F4D19B'],
     >
       <Card>
         <div className="flex justify-between items-center mb-4">
-<h3 className="text-lg font-semibold text-surface-950 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary font-display">
             {title}
           </h3>
           

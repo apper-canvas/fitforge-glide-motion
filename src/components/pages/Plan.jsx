@@ -125,7 +125,7 @@ const Plan = () => {
 
         {/* Generate New Plan Button */}
         <div className="flex justify-between items-center">
-<h2 className="text-xl font-semibold text-surface-950 font-display">
+<h2 className="text-xl font-semibold text-text-readable-primary font-display">
             Today's Exercises
           </h2>
           
@@ -167,7 +167,7 @@ const Plan = () => {
 
         {/* Workout Summary */}
         <div className="bg-card rounded-2xl p-6 border border-surface-600">
-<h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-4 font-display">
             Workout Summary
           </h3>
           
@@ -210,7 +210,7 @@ const Plan = () => {
             </div>
             
             <div>
-<h3 className="text-lg font-semibold text-surface-950 mb-2 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-2 font-display">
                 AI Coach Tips
               </h3>
               <ul className="space-y-2 text-surface-950 text-sm">

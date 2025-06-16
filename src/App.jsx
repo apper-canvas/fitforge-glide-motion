@@ -7,7 +7,7 @@ import { routeArray } from '@/config/routes';
 function App() {
 return (
     <BrowserRouter>
-      <div className="bg-background text-surface-900 min-h-screen">
+<div className="bg-background text-text-readable-primary min-h-screen">
         <Routes>
           <Route path="/" element={<Navigate to="/plan" replace />} />
           <Route path="/" element={<Layout />}>
@@ -32,7 +32,7 @@ return (
 draggable
           pauseOnHover
           theme="light"
-          toastClassName="bg-card border border-surface-300"
+toastClassName="bg-card border border-surface-300"
           style={{ zIndex: 9999 }}
         />
       </div>

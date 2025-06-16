@@ -75,9 +75,9 @@ const Timer = ({
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
-      className={`bg-card rounded-2xl p-6 text-center ${className}`}
+className={`bg-card rounded-2xl p-6 text-center ${className}`}
     >
-<h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">
+<h3 className="text-lg font-semibold text-text-readable-primary mb-4 font-display">
         {title}
       </h3>
 
@@ -87,14 +87,14 @@ const Timer = ({
           progress={progress}
           size={140}
           strokeWidth={8}
-          color={isCompleted ? '#10B981' : isRunning ? '#059669' : '#22C55E'}
-          backgroundColor="#166534"
+color={isCompleted ? '#27AE60' : isRunning ? '#27AE60' : '#27AE60'}
+          backgroundColor="#2C3E50"
         >
           <div className="text-center">
-<div className="text-3xl font-bold text-surface-950 font-display">
+<div className="text-3xl font-bold text-text-readable-primary font-display">
               {formatTime(timeRemaining)}
             </div>
-            <div className="text-sm text-surface-950 mt-1">
+            <div className="text-sm text-text-readable-secondary mt-1">
               {isCompleted ? 'Complete!' : isRunning ? 'Running' : 'Paused'}
             </div>
           </div>
