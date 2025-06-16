@@ -6,15 +6,15 @@ export default {
   ],
 theme: {
     extend: {
-      colors: {
-        primary: '#2980B9',
-        secondary: '#F39C12',
-        accent: '#2980B9',
+colors: {
+        primary: '#16A085',
+        secondary: '#B39DDB',
+        accent: '#16A085',
         surface: {
           50: '#FFFFFF',
           100: '#F5F5F5',
           200: '#E8E8E8',
-300: '#D1D1D1',
+          300: '#D1D1D1',
           400: '#B4B4B4',
           500: '#9E9E9E',
           600: '#5A5A5A',
