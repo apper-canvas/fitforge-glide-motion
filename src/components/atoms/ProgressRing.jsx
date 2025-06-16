@@ -5,8 +5,8 @@ const ProgressRing = ({
   progress = 0,
   size = 120,
   strokeWidth = 8,
-  color = '#4F46E5',
-  backgroundColor = '#374151',
+  color = '#059669',
+  backgroundColor = '#166534',
   children,
   animated = true,
   className = ''

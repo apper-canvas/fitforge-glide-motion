@@ -7,33 +7,33 @@ export default {
 theme: {
     extend: {
       colors: {
-        primary: '#B19CD9',
-        secondary: '#7FB3D3',
-        accent: '#FFB380',
+        primary: '#059669',
+        secondary: '#10B981',
+        accent: '#84CC16',
         surface: {
-          50: '#FEFBF8',
-          100: '#FDF8F3',
-          200: '#F9F0E8',
-          300: '#F3E6D7',
-          400: '#E8D5C4',
-          500: '#D4C2A8',
-600: '#B8A082',
-          700: '#9A7F5F',
-          800: '#7A5F3F',
-          900: '#5C3F2A',
-          950: '#2D1F15'
+          50: '#F0FDF4',
+          100: '#DCFCE7',
+          200: '#BBF7D0',
+          300: '#86EFAC',
+          400: '#4ADE80',
+          500: '#22C55E',
+          600: '#16A34A',
+          700: '#15803D',
+          800: '#166534',
+          900: '#14532D',
+          950: '#052E16'
         },
         'text-readable': {
-          primary: '#2D1F15',
-          secondary: '#5C3F2A',
-          tertiary: '#7A5F3F'
+          primary: '#052E16',
+          secondary: '#14532D',
+          tertiary: '#166534'
         },
-        card: '#FEFBF8',
-        background: '#FEF7F0',
-        success: '#A7E2CC',
-        warning: '#F4D19B',
-        error: '#F5B7B1',
-        info: '#AED6F1'
+        card: '#F0FDF4',
+        background: '#F7FEF0',
+        success: '#A7F3D0',
+        warning: '#FDE047',
+        error: '#FCA5A5',
+        info: '#7DD3FC'
       },
       fontFamily: {
         display: ['Bebas Neue', 'ui-sans-serif', 'system-ui'],

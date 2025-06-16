@@ -83,12 +83,12 @@ const Timer = ({
 
       {/* Timer Ring */}
       <div className="flex justify-center mb-6">
-        <ProgressRing
+<ProgressRing
           progress={progress}
           size={140}
           strokeWidth={8}
-          color={isCompleted ? '#10B981' : isRunning ? '#4F46E5' : '#64748b'}
-          backgroundColor="#374151"
+          color={isCompleted ? '#10B981' : isRunning ? '#059669' : '#22C55E'}
+          backgroundColor="#166534"
         >
           <div className="text-center">
 <div className="text-3xl font-bold text-surface-950 font-display">

@@ -229,11 +229,11 @@ const Track = () => {
 
         {/* Progress Ring */}
         <div className="flex justify-center">
-          <ProgressRing
+<ProgressRing
             progress={progress}
             size={120}
             strokeWidth={8}
-            color="#4F46E5"
+            color="#059669"
           >
             <div className="text-center">
 <div className="text-lg font-bold text-surface-950 font-display">
