@@ -6,30 +6,30 @@ export default {
   ],
 theme: {
     extend: {
-colors: {
-        primary: '#9575CD',
-        secondary: '#B39DDB',
-        accent: '#7E57C2',
+      colors: {
+        primary: 'var(--color-primary, #9575CD)',
+        secondary: 'var(--color-secondary, #B39DDB)', 
+        accent: 'var(--color-accent, #7E57C2)',
         surface: {
-          50: '#FFFFFF',
-          100: '#F8F5FF',
-          200: '#F3EFFF',
-          300: '#E8E2FF',
-          400: '#D1C4E9',
-          500: '#B39DDB',
-          600: '#9575CD',
-          700: '#7E57C2',
-          800: '#673AB7',
-          900: '#512DA8',
-          950: '#4527A0'
+          50: 'var(--color-surface-50, #FFFFFF)',
+          100: 'var(--color-surface-100, #F8F5FF)',
+          200: 'var(--color-surface-200, #F3EFFF)',
+          300: 'var(--color-surface-300, #E8E2FF)',
+          400: 'var(--color-surface-400, #D1C4E9)',
+          500: 'var(--color-surface-500, #B39DDB)',
+          600: 'var(--color-surface-600, #9575CD)',
+          700: 'var(--color-surface-700, #7E57C2)',
+          800: 'var(--color-surface-800, #673AB7)',
+          900: 'var(--color-surface-900, #512DA8)',
+          950: 'var(--color-surface-950, #4527A0)'
         },
-'text-readable': {
-          primary: '#1A1A1A',    // Very dark for primary text
-          secondary: '#2D2D2D',  // Dark grey for secondary text
-          tertiary: '#404040'    // Medium-dark grey for tertiary text
+        'text-readable': {
+          primary: 'var(--color-text-primary, #1A1A1A)',
+          secondary: 'var(--color-text-secondary, #2D2D2D)',
+          tertiary: 'var(--color-text-tertiary, #404040)'
         },
-        card: '#FFFFFF',
-        background: '#F8F5FF',
+        card: 'var(--color-card, #FFFFFF)',
+        background: 'var(--color-background, #F8F5FF)',
         success: '#4CAF50',
         warning: '#FF9800',
         error: '#F44336',
