@@ -9,14 +9,14 @@ const Badge = ({
   className = '',
   ...props
 }) => {
-  const variants = {
-    default: 'bg-surface-700 text-surface-200',
-    primary: 'bg-primary/20 text-primary border border-primary/30',
-    secondary: 'bg-secondary/20 text-secondary border border-secondary/30',
-    success: 'bg-success/20 text-success border border-success/30',
-    warning: 'bg-warning/20 text-warning border border-warning/30',
-    error: 'bg-error/20 text-error border border-error/30',
-    accent: 'bg-accent/20 text-accent border border-accent/30'
+const variants = {
+    default: 'bg-surface-200 text-surface-800',
+    primary: 'bg-primary/20 text-primary border border-primary/50',
+    secondary: 'bg-secondary/20 text-secondary border border-secondary/50',
+    success: 'bg-success/20 text-success border border-success/50',
+    warning: 'bg-warning/20 text-warning border border-warning/50',
+    error: 'bg-error/20 text-error border border-error/50',
+    accent: 'bg-accent/20 text-accent border border-accent/50'
   };
 
   const sizes = {

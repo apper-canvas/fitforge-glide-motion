@@ -5,9 +5,9 @@ import Layout from '@/Layout';
 import { routeArray } from '@/config/routes';
 
 function App() {
-  return (
+return (
     <BrowserRouter>
-      <div className="bg-background text-white min-h-screen">
+      <div className="bg-background text-surface-900 min-h-screen">
         <Routes>
           <Route path="/" element={<Navigate to="/plan" replace />} />
           <Route path="/" element={<Layout />}>
@@ -29,10 +29,10 @@ function App() {
           closeOnClick
           rtl={false}
           pauseOnFocusLoss
-          draggable
+draggable
           pauseOnHover
-          theme="dark"
-          toastClassName="bg-card border border-surface-600"
+          theme="light"
+          toastClassName="bg-card border border-surface-300"
           style={{ zIndex: 9999 }}
         />
       </div>

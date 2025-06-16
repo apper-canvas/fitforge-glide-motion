@@ -47,7 +47,7 @@ const ProgressChart = ({
           }
         }
       },
-      colors: ['#4F46E5', '#7C3AED', '#10B981', '#F59E0B'],
+colors: ['#B19CD9', '#7FB3D3', '#A7E2CC', '#F4D19B'],
       stroke: {
         curve: 'smooth',
         width: 3

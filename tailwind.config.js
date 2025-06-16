@@ -7,27 +7,27 @@ export default {
 theme: {
     extend: {
       colors: {
-        primary: '#000000',
-        secondary: '#374151',
-        accent: '#FFFFFF',
+        primary: '#B19CD9',
+        secondary: '#7FB3D3',
+        accent: '#FFB380',
         surface: {
-          50: '#f9fafb',
-          100: '#f3f4f6',
-          200: '#e5e7eb',
-          300: '#d1d5db',
-          400: '#9ca3af',
-          500: '#6b7280',
-          600: '#4b5563',
-          700: '#374151',
-          800: '#1f2937',
-          900: '#111827'
+          50: '#FEFBF8',
+          100: '#FDF8F3',
+          200: '#F9F0E8',
+          300: '#F3E6D7',
+          400: '#E8D5C4',
+          500: '#D4C2A8',
+          600: '#B8A082',
+          700: '#9A7F5F',
+          800: '#7A5F3F',
+          900: '#5C3F2A'
         },
-        card: '#2a2330',
-        background: '#1a161c',
-        success: '#6EE7B7',
-        warning: '#FBBF85',
-        error: '#FCA5A5',
-        info: '#93C5FD'
+        card: '#FEFBF8',
+        background: '#FEF7F0',
+        success: '#A7E2CC',
+        warning: '#F4D19B',
+        error: '#F5B7B1',
+        info: '#AED6F1'
       },
       fontFamily: {
         display: ['Bebas Neue', 'ui-sans-serif', 'system-ui'],

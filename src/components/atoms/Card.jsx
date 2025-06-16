@@ -10,12 +10,12 @@ const Card = ({
   onClick,
   ...props
 }) => {
-  const variants = {
-    default: 'bg-card border border-surface-600',
-    primary: 'bg-card border border-primary/30',
-    success: 'bg-card border border-success/30',
-    warning: 'bg-card border border-warning/30',
-    error: 'bg-card border border-error/30'
+const variants = {
+    default: 'bg-card border border-surface-300',
+    primary: 'bg-card border border-primary/50',
+    success: 'bg-card border border-success/50',
+    warning: 'bg-card border border-warning/50',
+    error: 'bg-card border border-error/50'
   };
 
   const paddings = {

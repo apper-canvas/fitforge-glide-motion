@@ -29,7 +29,7 @@ const Layout = () => {
       </main>
 
       {/* Bottom Navigation */}
-      <nav className="flex-shrink-0 bg-card border-t border-surface-600 px-4 py-2 safe-area-pb">
+<nav className="flex-shrink-0 bg-card border-t border-surface-300 px-4 py-2 safe-area-pb">
         <div className="flex justify-around items-center max-w-md mx-auto">
           {mainTabs.map((route, index) => {
             const isActive = location.pathname === route.path;
@@ -46,27 +46,27 @@ const Layout = () => {
                   whileTap={{ scale: 0.95 }}
                   className={`
                     flex flex-col items-center justify-center p-3 rounded-2xl transition-all duration-200
-                    ${isCenter 
-                      ? `w-16 h-16 ${isActive ? 'bg-primary shadow-lg shadow-primary/30' : 'bg-surface-700'}`
-                      : `w-12 h-12 ${isActive ? 'bg-primary/20' : 'hover:bg-surface-700'}`
+${isCenter 
+                      ? `w-16 h-16 ${isActive ? 'bg-primary shadow-lg shadow-primary/30' : 'bg-surface-200'}`
+                      : `w-12 h-12 ${isActive ? 'bg-primary/20' : 'hover:bg-surface-200'}`
                     }
                   `}
                 >
                   <ApperIcon
                     name={route.icon}
                     size={isCenter ? 28 : 20}
-                    className={`
+className={`
                       ${isActive 
                         ? 'text-white' 
-                        : 'text-surface-400'
+                        : 'text-surface-600'
                       }
                     `}
                   />
                 </motion.div>
                 
-                <span className={`
+<span className={`
                   text-xs mt-1 font-medium transition-colors duration-200
-                  ${isActive ? 'text-primary' : 'text-surface-400'}
+                  ${isActive ? 'text-primary' : 'text-surface-600'}
                 `}>
                   {route.label}
                 </span>

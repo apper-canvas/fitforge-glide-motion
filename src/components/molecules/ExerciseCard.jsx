@@ -61,21 +61,21 @@ const ExerciseCard = ({
               <ApperIcon name="Play" size={16} className="text-white" />
             </div>
           ) : (
-            <div className="w-8 h-8 bg-surface-600 rounded-full flex items-center justify-center opacity-50">
-              <ApperIcon name="Clock" size={16} className="text-surface-400" />
+<div className="w-8 h-8 bg-surface-300 rounded-full flex items-center justify-center opacity-50">
+              <ApperIcon name="Clock" size={16} className="text-surface-600" />
             </div>
           )}
         </div>
 
         <div className="pr-12">
           {/* Exercise name */}
-          <h3 className="text-lg font-semibold text-white mb-2 font-display">
+<h3 className="text-lg font-semibold text-surface-900 mb-2 font-display">
             {exercise.name}
           </h3>
 
           {/* Exercise details */}
           <div className="flex flex-wrap gap-3 mb-3">
-            <div className="flex items-center gap-1 text-surface-300">
+<div className="flex items-center gap-1 text-surface-700">
               <ApperIcon name="Repeat" size={16} />
               <span className="text-sm">
                 {exercise.sets} × {exercise.reps}
@@ -83,13 +83,13 @@ const ExerciseCard = ({
             </div>
             
             {exercise.weight > 0 && (
-              <div className="flex items-center gap-1 text-surface-300">
+<div className="flex items-center gap-1 text-surface-700">
                 <ApperIcon name="Weight" size={16} />
                 <span className="text-sm">{exercise.weight}kg</span>
               </div>
             )}
             
-            <div className="flex items-center gap-1 text-surface-300">
+<div className="flex items-center gap-1 text-surface-700">
               <ApperIcon name="Timer" size={16} />
               <span className="text-sm">{exercise.rest}s rest</span>
             </div>
