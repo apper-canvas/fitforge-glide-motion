@@ -82,13 +82,13 @@ className={`bg-card rounded-2xl p-6 text-center ${className}`}
       </h3>
 
       {/* Timer Ring */}
-      <div className="flex justify-center mb-6">
+<div className="flex justify-center mb-6">
 <ProgressRing
           progress={progress}
           size={140}
           strokeWidth={8}
-color={isCompleted ? '#2980B9' : isRunning ? '#2980B9' : '#2980B9'}
-          backgroundColor="#2C3E50"
+color={isCompleted ? 'rgb(var(--color-primary))' : isRunning ? 'rgb(var(--color-primary))' : 'rgb(var(--color-primary))'}
+          backgroundColor="rgb(var(--color-surface-900))"
         >
           <div className="text-center">
 <div className="text-3xl font-bold text-text-readable-primary font-display">

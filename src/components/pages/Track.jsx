@@ -233,7 +233,7 @@ const Track = () => {
             progress={progress}
             size={120}
             strokeWidth={8}
-            color="#2980B9"
+            color="rgb(var(--color-primary))"
           >
             <div className="text-center">
 <div className="text-lg font-bold text-text-readable-primary font-display">
