@@ -5,39 +5,39 @@ import Profile from '@/components/pages/Profile';
 import Setup from '@/components/pages/Setup';
 
 export const routes = {
-  setup: {
+setup: {
     id: 'setup',
     label: 'Setup',
     path: '/setup',
-    icon: 'Settings',
+    icon: 'Cog',
     component: Setup
   },
-  plan: {
+plan: {
     id: 'plan',
     label: 'Plan',
     path: '/plan',
-    icon: 'Calendar',
+    icon: 'Clipboard',
     component: Plan
   },
-  track: {
+track: {
     id: 'track',
     label: 'Track',
     path: '/track',
-    icon: 'PlayCircle',
+    icon: 'Dumbbell',
     component: Track
   },
-  progress: {
+progress: {
     id: 'progress',
     label: 'Progress',
     path: '/progress',
-    icon: 'TrendingUp',
+    icon: 'BarChart3',
     component: Progress
   },
-  profile: {
+profile: {
     id: 'profile',
     label: 'Profile',
     path: '/profile',
-    icon: 'User',
+    icon: 'UserCircle',
     component: Profile
   }
 };
