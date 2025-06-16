@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "name": "Push-ups",
+    "description": "Classic bodyweight exercise targeting chest, shoulders, and triceps",
+    "instructions": [
+      "Start in plank position with hands shoulder-width apart",
+      "Lower your body until chest nearly touches the floor",
+      "Push back up to starting position",
+      "Keep your core tight throughout the movement"
+    ],
+    "muscleGroups": ["chest", "triceps", "shoulders", "core"],
+    "equipment": ["bodyweight"],
+    "difficulty": "beginner",
+    "tips": [
+      "Keep your body in a straight line",
+      "Don't let your hips sag",
+      "Control the descent - don't drop down"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Squats",
+    "description": "Fundamental lower body exercise targeting legs and glutes",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Lower your body by pushing hips back and bending knees",
+      "Descend until thighs are parallel to the floor",
+      "Drive through heels to return to starting position"
+    ],
+    "muscleGroups": ["quadriceps", "glutes", "hamstrings", "calves"],
+    "equipment": ["bodyweight"],
+    "difficulty": "beginner",
+    "tips": [
+      "Keep your chest up and back straight",
+      "Don't let knees cave inward",
+      "Weight should be on your heels"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Bench Press",
+    "description": "Upper body strength exercise targeting chest and arms",
+    "instructions": [
+      "Lie on bench with feet flat on floor",
+      "Grip bar slightly wider than shoulder-width",
+      "Lower bar to chest with control",
+      "Press bar back up to arms' length"
+    ],
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipment": ["barbell", "bench"],
+    "difficulty": "intermediate",
+    "tips": [
+      "Keep shoulder blades retracted",
+      "Don't bounce the bar off your chest",
+      "Maintain tight core throughout"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Deadlifts",
+    "description": "Full-body compound movement focusing on posterior chain",
+    "instructions": [
+      "Stand with feet hip-width apart, bar over mid-foot",
+      "Bend at hips and knees to grip the bar",
+      "Keep chest up and back straight",
+      "Drive through heels to lift bar, extending hips and knees"
+    ],
+    "muscleGroups": ["back", "glutes", "hamstrings", "traps"],
+    "equipment": ["barbell"],
+    "difficulty": "advanced",
+    "tips": [
+      "Keep the bar close to your body",
+      "Don't round your back",
+      "Engage your lats throughout the lift"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Plank",
+    "description": "Isometric core exercise for stability and strength",
+    "instructions": [
+      "Start in push-up position",
+      "Lower to forearms, keeping elbows under shoulders",
+      "Hold your body in straight line",
+      "Maintain position for desired time"
+    ],
+    "muscleGroups": ["core", "abs", "shoulders"],
+    "equipment": ["bodyweight"],
+    "difficulty": "beginner",
+    "tips": [
+      "Don't let hips sag or pike up",
+      "Breathe normally during hold",
+      "Keep your neck neutral"
+    ]
+  }
+]

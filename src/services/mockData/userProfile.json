@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "goals": ["strength", "muscle_gain"],
+    "equipment": ["dumbbells", "barbell", "bench"],
+    "schedule": {
+      "daysPerWeek": 4,
+      "sessionDuration": 60,
+      "preferredTime": "morning"
+    },
+    "currentStreak": 7,
+    "totalWorkouts": 42,
+    "experienceLevel": "intermediate",
+    "preferences": {
+      "units": "metric",
+      "restTimerSound": true,
+      "formTips": true
+    }
+  }
+]

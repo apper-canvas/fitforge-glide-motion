@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "planId": "1",
+    "date": "2024-01-14T10:30:00.000Z",
+    "exercises": [
+      {
+        "exerciseId": "ex1",
+        "name": "Bench Press",
+        "sets": [
+          {"reps": 10, "weight": 80, "completed": true},
+          {"reps": 9, "weight": 80, "completed": true},
+          {"reps": 8, "weight": 80, "completed": true},
+          {"reps": 8, "weight": 80, "completed": true}
+        ]
+      },
+      {
+        "exerciseId": "ex2",
+        "name": "Barbell Rows",
+        "sets": [
+          {"reps": 10, "weight": 70, "completed": true},
+          {"reps": 10, "weight": 70, "completed": true},
+          {"reps": 9, "weight": 70, "completed": true},
+          {"reps": 8, "weight": 70, "completed": true}
+        ]
+      }
+    ],
+    "duration": 72,
+    "completed": true,
+    "notes": "Great session, felt strong on bench press"
+  },
+  {
+    "id": "2",
+    "planId": "2",
+    "date": "2024-01-13T09:15:00.000Z",
+    "exercises": [
+      {
+        "exerciseId": "ex5",
+        "name": "Squats",
+        "sets": [
+          {"reps": 12, "weight": 90, "completed": true},
+          {"reps": 12, "weight": 90, "completed": true},
+          {"reps": 11, "weight": 90, "completed": true},
+          {"reps": 10, "weight": 90, "completed": true}
+        ]
+      },
+      {
+        "exerciseId": "ex6",
+        "name": "Romanian Deadlifts",
+        "sets": [
+          {"reps": 12, "weight": 70, "completed": true},
+          {"reps": 11, "weight": 70, "completed": true},
+          {"reps": 10, "weight": 70, "completed": true}
+        ]
+      }
+    ],
+    "duration": 58,
+    "completed": true,
+    "notes": "Legs felt good, increased depth on squats"
+  },
+  {
+    "id": "3",
+    "planId": "3",
+    "date": "2024-01-12T18:00:00.000Z",
+    "exercises": [
+      {
+        "exerciseId": "ex8",
+        "name": "Pull-ups",
+        "sets": [
+          {"reps": 8, "weight": 0, "completed": true},
+          {"reps": 7, "weight": 0, "completed": true},
+          {"reps": 6, "weight": 0, "completed": true},
+          {"reps": 5, "weight": 0, "completed": true}
+        ]
+      }
+    ],
+    "duration": 35,
+    "completed": false,
+    "notes": "Had to cut workout short, will make up tomorrow"
+  }
+]

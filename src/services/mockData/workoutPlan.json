@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1",
+    "date": "2024-01-15T10:00:00.000Z",
+    "exercises": [
+      {
+        "id": "ex1",
+        "name": "Bench Press",
+        "sets": 4,
+        "reps": "8-10",
+        "weight": 80,
+        "rest": 120,
+        "muscleGroups": ["chest", "triceps", "shoulders"]
+      },
+      {
+        "id": "ex2",
+        "name": "Barbell Rows",
+        "sets": 4,
+        "reps": "8-10",
+        "weight": 70,
+        "rest": 120,
+        "muscleGroups": ["back", "biceps"]
+      },
+      {
+        "id": "ex3",
+        "name": "Overhead Press",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": 50,
+        "rest": 90,
+        "muscleGroups": ["shoulders", "triceps"]
+      },
+      {
+        "id": "ex4",
+        "name": "Deadlifts",
+        "sets": 3,
+        "reps": "6-8",
+        "weight": 100,
+        "rest": 180,
+        "muscleGroups": ["back", "glutes", "hamstrings"]
+      }
+    ],
+    "targetMuscles": ["chest", "back", "shoulders"],
+    "estimatedDuration": 75
+  },
+  {
+    "id": "2",
+    "date": "2024-01-16T10:00:00.000Z",
+    "exercises": [
+      {
+        "id": "ex5",
+        "name": "Squats",
+        "sets": 4,
+        "reps": "10-12",
+        "weight": 90,
+        "rest": 120,
+        "muscleGroups": ["quadriceps", "glutes"]
+      },
+      {
+        "id": "ex6",
+        "name": "Romanian Deadlifts",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": 70,
+        "rest": 90,
+        "muscleGroups": ["hamstrings", "glutes"]
+      },
+      {
+        "id": "ex7",
+        "name": "Walking Lunges",
+        "sets": 3,
+        "reps": "12 each leg",
+        "weight": 20,
+        "rest": 90,
+        "muscleGroups": ["quadriceps", "glutes"]
+      }
+    ],
+    "targetMuscles": ["legs", "glutes"],
+    "estimatedDuration": 60
+  },
+  {
+    "id": "3",
+    "date": "2024-01-17T10:00:00.000Z",
+    "exercises": [
+      {
+        "id": "ex8",
+        "name": "Pull-ups",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": 0,
+        "rest": 120,
+        "muscleGroups": ["back", "biceps"]
+      },
+      {
+        "id": "ex9",
+        "name": "Dumbbell Curls",
+        "sets": 3,
+        "reps": "12-15",
+        "weight": 15,
+        "rest": 60,
+        "muscleGroups": ["biceps"]
+      },
+      {
+        "id": "ex10",
+        "name": "Tricep Dips",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": 0,
+        "rest": 60,
+        "muscleGroups": ["triceps"]
+      }
+    ],
+    "targetMuscles": ["back", "arms"],
+    "estimatedDuration": 45
+  }
+]
