@@ -14,10 +14,10 @@ theme: {
           50: '#FFFFFF',
           100: '#F5F5F5',
           200: '#E8E8E8',
-          300: '#D1D1D1',
+300: '#D1D1D1',
           400: '#B4B4B4',
           500: '#9E9E9E',
-          600: '#757575',
+          600: '#5A5A5A',
           700: '#616161',
           800: '#424242',
           900: '#2C3E50',
@@ -26,7 +26,7 @@ theme: {
         'text-readable': {
           primary: '#1A1A1A',
           secondary: '#4D4D4D',
-          tertiary: '#757575'
+          tertiary: '#424242'
         },
         card: '#FFFFFF',
         background: '#F5F5F5',
