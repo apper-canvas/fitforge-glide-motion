@@ -108,7 +108,7 @@ colors: ['#B19CD9', '#7FB3D3', '#A7E2CC', '#F4D19B'],
     >
       <Card>
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-lg font-semibold text-white font-display">
+<h3 className="text-lg font-semibold text-surface-950 font-display">
             {title}
           </h3>
           

@@ -123,7 +123,7 @@ const Profile = () => {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold text-white font-display">
+<h1 className="text-2xl font-bold text-surface-950 font-display">
               Profile Settings
             </h1>
             <p className="text-surface-400">
@@ -150,28 +150,28 @@ const Profile = () => {
               <div className="text-2xl font-bold text-primary font-display">
                 {profile.currentStreak || 0}
               </div>
-              <div className="text-sm text-surface-400">Current Streak</div>
+<div className="text-sm text-surface-950">Current Streak</div>
             </div>
             
             <div className="text-center">
               <div className="text-2xl font-bold text-secondary font-display">
                 {profile.totalWorkouts || 0}
               </div>
-              <div className="text-sm text-surface-400">Total Workouts</div>
+              <div className="text-sm text-surface-950">Total Workouts</div>
             </div>
             
             <div className="text-center">
               <div className="text-2xl font-bold text-accent font-display">
                 {profile.schedule?.daysPerWeek || 0}
               </div>
-              <div className="text-sm text-surface-400">Days/Week</div>
+              <div className="text-sm text-surface-950">Days/Week</div>
             </div>
             
             <div className="text-center">
               <div className="text-2xl font-bold text-warning font-display">
                 {profile.schedule?.sessionDuration || 0}m
               </div>
-              <div className="text-sm text-surface-400">Per Session</div>
+              <div className="text-sm text-surface-950">Per Session</div>
             </div>
           </div>
         </Card>
@@ -179,7 +179,7 @@ const Profile = () => {
         {/* Fitness Goals */}
         <Card>
           <div className="flex justify-between items-center mb-4">
-            <h3 className="text-lg font-semibold text-white font-display">
+<h3 className="text-lg font-semibold text-surface-950 font-display">
               Fitness Goals
             </h3>
           </div>
@@ -204,7 +204,7 @@ const Profile = () => {
                     size={20}
                     className={editData.goals?.includes(goal.id) ? 'text-primary' : 'text-surface-400'}
                   />
-                  <span className="text-white font-medium">{goal.name}</span>
+<span className="text-surface-950 font-medium">{goal.name}</span>
                   {editData.goals?.includes(goal.id) && (
                     <ApperIcon name="Check" size={16} className="text-primary ml-auto" />
                   )}
@@ -228,7 +228,7 @@ const Profile = () => {
         {/* Available Equipment */}
         <Card>
           <div className="flex justify-between items-center mb-4">
-            <h3 className="text-lg font-semibold text-white font-display">
+<h3 className="text-lg font-semibold text-surface-950 font-display">
               Available Equipment
             </h3>
           </div>
@@ -253,7 +253,7 @@ const Profile = () => {
                     size={20}
                     className={editData.equipment?.includes(equipment.id) ? 'text-secondary' : 'text-surface-400'}
                   />
-                  <span className="text-sm text-white font-medium">{equipment.name}</span>
+<span className="text-sm text-surface-950 font-medium">{equipment.name}</span>
                   {editData.equipment?.includes(equipment.id) && (
                     <ApperIcon name="Check" size={14} className="text-secondary" />
                   )}
@@ -276,7 +276,7 @@ const Profile = () => {
 
         {/* Workout Schedule */}
         <Card>
-          <h3 className="text-lg font-semibold text-white mb-4 font-display">
+<h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">
             Workout Schedule
           </h3>
           
@@ -352,24 +352,24 @@ const Profile = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="text-center p-4 bg-surface-800 rounded-lg">
-                <div className="text-lg font-bold text-primary font-display">
+<div className="text-lg font-bold text-primary font-display">
                   {profile.schedule?.daysPerWeek || 0}
                 </div>
-                <div className="text-sm text-surface-400">Days per week</div>
+                <div className="text-sm text-surface-950">Days per week</div>
               </div>
               
               <div className="text-center p-4 bg-surface-800 rounded-lg">
                 <div className="text-lg font-bold text-secondary font-display">
                   {profile.schedule?.sessionDuration || 0}m
                 </div>
-                <div className="text-sm text-surface-400">Per session</div>
+                <div className="text-sm text-surface-950">Per session</div>
               </div>
               
               <div className="text-center p-4 bg-surface-800 rounded-lg">
                 <div className="text-lg font-bold text-accent font-display capitalize">
                   {profile.schedule?.preferredTime || 'Any'}
                 </div>
-                <div className="text-sm text-surface-400">Preferred time</div>
+                <div className="text-sm text-surface-950">Preferred time</div>
               </div>
             </div>
           )}
@@ -398,10 +398,10 @@ const Profile = () => {
 
         {/* Danger Zone */}
         <Card variant="error">
-          <h3 className="text-lg font-semibold text-white mb-2 font-display">
+<h3 className="text-lg font-semibold text-surface-950 mb-2 font-display">
             Reset Profile
           </h3>
-          <p className="text-sm text-surface-400 mb-4">
+          <p className="text-sm text-surface-950 mb-4">
             This will reset all your preferences and workout history. This action cannot be undone.
           </p>
           

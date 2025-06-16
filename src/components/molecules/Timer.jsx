@@ -77,7 +77,7 @@ const Timer = ({
       animate={{ opacity: 1, scale: 1 }}
       className={`bg-card rounded-2xl p-6 text-center ${className}`}
     >
-<h3 className="text-lg font-semibold text-surface-900 mb-4 font-display">
+<h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">
         {title}
       </h3>
 
@@ -91,10 +91,10 @@ const Timer = ({
           backgroundColor="#374151"
         >
           <div className="text-center">
-<div className="text-3xl font-bold text-surface-900 font-display">
+<div className="text-3xl font-bold text-surface-950 font-display">
               {formatTime(timeRemaining)}
             </div>
-<div className="text-sm text-surface-600 mt-1">
+            <div className="text-sm text-surface-950 mt-1">
               {isCompleted ? 'Complete!' : isRunning ? 'Running' : 'Paused'}
             </div>
           </div>

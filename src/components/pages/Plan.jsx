@@ -125,7 +125,7 @@ const Plan = () => {
 
         {/* Generate New Plan Button */}
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-semibold text-white font-display">
+<h2 className="text-xl font-semibold text-surface-950 font-display">
             Today's Exercises
           </h2>
           
@@ -167,7 +167,7 @@ const Plan = () => {
 
         {/* Workout Summary */}
         <div className="bg-card rounded-2xl p-6 border border-surface-600">
-          <h3 className="text-lg font-semibold text-white mb-4 font-display">
+<h3 className="text-lg font-semibold text-surface-950 mb-4 font-display">
             Workout Summary
           </h3>
           
@@ -210,10 +210,10 @@ const Plan = () => {
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold text-white mb-2 font-display">
+<h3 className="text-lg font-semibold text-surface-950 mb-2 font-display">
                 AI Coach Tips
               </h3>
-              <ul className="space-y-2 text-surface-300 text-sm">
+              <ul className="space-y-2 text-surface-950 text-sm">
                 <li className="flex items-start gap-2">
                   <ApperIcon name="CheckCircle" size={16} className="text-success mt-0.5 flex-shrink-0" />
                   <span>Focus on proper form over heavy weights</span>

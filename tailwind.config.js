@@ -17,10 +17,16 @@ theme: {
           300: '#F3E6D7',
           400: '#E8D5C4',
           500: '#D4C2A8',
-          600: '#B8A082',
+600: '#B8A082',
           700: '#9A7F5F',
           800: '#7A5F3F',
-          900: '#5C3F2A'
+          900: '#5C3F2A',
+          950: '#2D1F15'
+        },
+        'text-readable': {
+          primary: '#2D1F15',
+          secondary: '#5C3F2A',
+          tertiary: '#7A5F3F'
         },
         card: '#FEFBF8',
         background: '#FEF7F0',
