@@ -34,16 +34,16 @@ const ProgressChart = ({
       },
       xaxis: {
         type: 'datetime',
-        labels: {
+labels: {
           style: {
-            colors: '#9CA3AF'
+            colors: '#2D2D2D'
           }
         }
       },
       yaxis: {
-        labels: {
+labels: {
           style: {
-            colors: '#9CA3AF'
+            colors: '#2D2D2D'
           }
         }
       },
@@ -67,9 +67,9 @@ colors: ['#27AE60', '#F39C12', '#27AE60', '#F39C12'],
           backgroundColor: '#1F2937'
         }
       },
-      legend: {
+legend: {
         labels: {
-          colors: '#9CA3AF'
+          colors: '#2D2D2D'
         }
       }
     }

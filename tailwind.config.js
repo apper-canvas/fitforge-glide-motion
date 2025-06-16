@@ -23,10 +23,10 @@ colors: {
           900: '#512DA8',
           950: '#4527A0'
         },
-        'text-readable': {
-          primary: '#1A1A1A',
-          secondary: '#4D4D4D',
-          tertiary: '#424242'
+'text-readable': {
+          primary: '#1A1A1A',    // Very dark for primary text
+          secondary: '#2D2D2D',  // Dark grey for secondary text
+          tertiary: '#404040'    // Medium-dark grey for tertiary text
         },
         card: '#FFFFFF',
         background: '#F8F5FF',

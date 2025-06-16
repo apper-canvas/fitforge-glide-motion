@@ -10,7 +10,7 @@ const Badge = ({
   ...props
 }) => {
 const variants = {
-    default: 'bg-surface-200 text-surface-800',
+    default: 'bg-surface-200 text-text-readable-primary',
     primary: 'bg-primary/20 text-primary border border-primary/50',
     secondary: 'bg-secondary/20 text-secondary border border-secondary/50',
     success: 'bg-success/20 text-success border border-success/50',

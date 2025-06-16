@@ -1,8 +1,8 @@
-import React from 'react';
-import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import ApperIcon from '@/components/ApperIcon';
-import { routes } from '@/config/routes';
+import React from "react";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import { routes } from "@/config/routes";
 
 const Layout = () => {
   const location = useLocation();
@@ -51,22 +51,22 @@ ${isCenter
                       : `w-12 h-12 ${isActive ? 'bg-primary/20' : 'hover:bg-surface-200'}`
                     }
                   `}
-                >
+>
                   <ApperIcon
                     name={route.icon}
                     size={isCenter ? 28 : 20}
-className={`
+                    className={`
                       ${isActive 
                         ? 'text-white' 
-                        : 'text-surface-600'
+                        : 'text-text-readable-secondary'
                       }
                     `}
                   />
                 </motion.div>
                 
-<span className={`
+                <span className={`
                   text-xs mt-1 font-medium transition-colors duration-200
-                  ${isActive ? 'text-primary' : 'text-surface-600'}
+                  ${isActive ? 'text-primary' : 'text-text-readable-secondary'}
                 `}>
                   {route.label}
                 </span>

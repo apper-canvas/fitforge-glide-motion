@@ -15,7 +15,7 @@ const Input = ({
   
   return (
     <div className={`w-full ${className}`}>
-      {label && (
+{label && (
         <label
 className="block text-sm font-medium text-text-readable-secondary mb-2"
           htmlFor={inputId}
@@ -27,9 +27,9 @@ className="block text-sm font-medium text-text-readable-secondary mb-2"
       <div className="relative">
         {icon && (
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <ApperIcon
+<ApperIcon
               name={icon}
-className="text-surface-600"
+className="text-text-readable-secondary"
               size={18}
             />
           </div>
@@ -39,9 +39,9 @@ className="text-surface-600"
           {...props}
           id={inputId}
           type={type}
-          disabled={disabled}
+disabled={disabled}
 className={`
-            w-full px-4 py-3 bg-surface-100 border border-surface-300 rounded-lg text-text-readable-primary placeholder-surface-600
+            w-full px-4 py-3 bg-surface-100 border border-surface-300 rounded-lg text-text-readable-primary placeholder-text-readable-secondary
             focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent
             disabled:opacity-50 disabled:cursor-not-allowed
             ${icon ? 'pl-10' : ''}
@@ -56,8 +56,7 @@ className={`
           {error}
         </p>
       )}
-      
-      {helper && !error && (
+{helper && !error && (
 <p className="mt-1 text-sm text-text-readable-secondary">
           {helper}
         </p>

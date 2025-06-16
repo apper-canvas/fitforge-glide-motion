@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
-import Button from '@/components/atoms/Button';
-import Card from '@/components/atoms/Card';
-import ApperIcon from '@/components/ApperIcon';
-import { userProfileService } from '@/services';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import Button from "@/components/atoms/Button";
+import Card from "@/components/atoms/Card";
+import ApperIcon from "@/components/ApperIcon";
+import { userProfileService } from "@/services";
 
 const Setup = () => {
   const navigate = useNavigate();
@@ -120,9 +120,9 @@ const Setup = () => {
     >
       <div className="text-center mb-8">
 <h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
-          What are your fitness goals?
+What are your fitness goals?
         </h2>
-        <p className="text-surface-300">
+        <p className="text-text-readable-secondary">
           Select all that apply to create a personalized plan
         </p>
       </div>
@@ -150,12 +150,11 @@ const Setup = () => {
               <div className="flex-1">
 <h3 className="text-lg font-semibold text-text-readable-primary mb-1">
                   {goal.name}
-                </h3>
-                <p className="text-sm text-surface-400">
+</h3>
+                <p className="text-sm text-text-readable-secondary">
                   {goal.description}
                 </p>
               </div>
-              
               {profile.goals.includes(goal.id) && (
                 <ApperIcon name="Check" size={20} className="text-primary" />
               )}
@@ -185,9 +184,9 @@ const Setup = () => {
     >
       <div className="text-center mb-8">
 <h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
-          What equipment do you have?
+What equipment do you have?
         </h2>
-        <p className="text-surface-300">
+        <p className="text-text-readable-secondary">
           This helps us create workouts you can actually do
         </p>
       </div>
@@ -254,9 +253,9 @@ const Setup = () => {
     >
       <div className="text-center mb-8">
 <h2 className="text-3xl font-bold text-text-readable-primary mb-2 font-display">
-          Set your schedule
+Set your schedule
         </h2>
-        <p className="text-surface-300">
+        <p className="text-text-readable-secondary">
           Help us plan the perfect workout frequency for you
         </p>
       </div>
@@ -281,12 +280,12 @@ const Setup = () => {
               ))}
             </div>
           </div>
-        </Card>
+</Card>
 
         {/* Session duration */}
         <Card>
           <div className="mb-4">
-            <h3 className="text-lg font-semibold text-surface-950 mb-2">
+            <h3 className="text-lg font-semibold text-text-readable-primary mb-2">
               How long per session?
             </h3>
             <div className="grid grid-cols-4 gap-2">
@@ -302,15 +301,15 @@ const Setup = () => {
               ))}
             </div>
           </div>
-        </Card>
+</Card>
 
         {/* Preferred time */}
         <Card>
           <div className="mb-4">
-            <h3 className="text-lg font-semibold text-surface-950 mb-2">
+            <h3 className="text-lg font-semibold text-text-readable-primary mb-2">
               Preferred workout time
             </h3>
-            <div className="grid grid-cols-3 gap-2">
+<div className="grid grid-cols-3 gap-2">
               {[
                 { value: 'morning', label: 'Morning' },
                 { value: 'afternoon', label: 'Afternoon' },
@@ -353,34 +352,33 @@ const Setup = () => {
 
   return (
     <div className="min-h-screen bg-background p-4">
-      <div className="max-w-2xl mx-auto pt-8">
+    <div className="max-w-2xl mx-auto pt-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center"
-          >
-            <ApperIcon name="Dumbbell" size={32} className="text-white" />
-          </motion.div>
-          
-<h1 className="text-4xl font-bold text-text-readable-primary mb-2 font-display">
-            Welcome to FitForge AI
-          </h1>
-          <p className="text-surface-300">
-            Let's create your personalized fitness plan
-          </p>
+            <motion.div
+                initial={{
+                    scale: 0
+                }}
+                animate={{
+                    scale: 1
+                }}
+                className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                <ApperIcon name="Dumbbell" size={32} className="text-white" />
+            </motion.div>
+            <h1
+                className="text-4xl font-bold text-text-readable-primary mb-2 font-display">Welcome to FitForge AI
+                          </h1>
+            <p className="text-text-readable-secondary">Let's create your personalized fitness plan
+                          </p>
         </div>
-
         {renderStepIndicator()}
-
         <div className="max-w-full overflow-hidden">
-          {step === 1 && renderGoalsStep()}
-          {step === 2 && renderEquipmentStep()}
-          {step === 3 && renderScheduleStep()}
+            {step === 1 && renderGoalsStep()}
+            {step === 2 && renderEquipmentStep()}
+            {step === 3 && renderScheduleStep()}
         </div>
-      </div>
     </div>
+</div>
   );
 };
 

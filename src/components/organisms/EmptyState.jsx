@@ -31,12 +31,11 @@ const EmptyState = ({
       
 <h3 className="text-xl font-semibold text-text-readable-primary mb-2 font-display">
         {title}
-      </h3>
+</h3>
       
-      <p className="text-surface-400 mb-6 max-w-md mx-auto">
+      <p className="text-text-readable-secondary mb-6 max-w-md mx-auto">
         {description}
       </p>
-      
       {onAction && (
         <motion.div
           whileHover={{ scale: 1.05 }}

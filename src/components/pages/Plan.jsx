@@ -174,30 +174,27 @@ const Plan = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="text-center">
               <div className="text-2xl font-bold text-primary font-display">
-                {workout.exercises?.length || 0}
+{workout.exercises?.length || 0}
               </div>
-              <div className="text-sm text-surface-400">Exercises</div>
+              <div className="text-sm text-text-readable-secondary">Exercises</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-secondary font-display">
-                {workout.exercises?.reduce((total, ex) => total + ex.sets, 0) || 0}
+{workout.exercises?.reduce((total, ex) => total + ex.sets, 0) || 0}
               </div>
-              <div className="text-sm text-surface-400">Total Sets</div>
+              <div className="text-sm text-text-readable-secondary">Total Sets</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-accent font-display">
-                ~{workout.estimatedDuration}
+~{workout.estimatedDuration}
               </div>
-              <div className="text-sm text-surface-400">Minutes</div>
+              <div className="text-sm text-text-readable-secondary">Minutes</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-warning font-display">
-                {workout.targetMuscles?.length || 0}
+{workout.targetMuscles?.length || 0}
               </div>
-              <div className="text-sm text-surface-400">Muscle Groups</div>
+              <div className="text-sm text-text-readable-secondary">Muscle Groups</div>
             </div>
           </div>
         </div>
@@ -211,9 +208,9 @@ const Plan = () => {
             
             <div>
 <h3 className="text-lg font-semibold text-text-readable-primary mb-2 font-display">
-                AI Coach Tips
+AI Coach Tips
               </h3>
-              <ul className="space-y-2 text-surface-950 text-sm">
+              <ul className="space-y-2 text-text-readable-secondary text-sm">
                 <li className="flex items-start gap-2">
                   <ApperIcon name="CheckCircle" size={16} className="text-success mt-0.5 flex-shrink-0" />
                   <span>Focus on proper form over heavy weights</span>

@@ -124,13 +124,12 @@ const Profile = () => {
         <div className="flex justify-between items-center">
           <div>
 <h1 className="text-2xl font-bold text-text-readable-primary font-display">
-              Profile Settings
+Profile Settings
             </h1>
-            <p className="text-surface-400">
+            <p className="text-text-readable-secondary">
               Manage your fitness preferences and goals
             </p>
           </div>
-          
           {!editing && (
             <Button
               variant="primary"
@@ -148,28 +147,25 @@ const Profile = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="text-center">
               <div className="text-2xl font-bold text-primary font-display">
-                {profile.currentStreak || 0}
+{profile.currentStreak || 0}
               </div>
 <div className="text-sm text-text-readable-secondary">Current Streak</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-secondary font-display">
-                {profile.totalWorkouts || 0}
+{profile.totalWorkouts || 0}
               </div>
               <div className="text-sm text-text-readable-secondary">Total Workouts</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-primary font-display">
-                {profile.schedule?.daysPerWeek || 0}
+{profile.schedule?.daysPerWeek || 0}
               </div>
               <div className="text-sm text-text-readable-secondary">Days/Week</div>
             </div>
-            
             <div className="text-center">
               <div className="text-2xl font-bold text-warning font-display">
-                {profile.schedule?.sessionDuration || 0}m
+{profile.schedule?.sessionDuration || 0}m
               </div>
               <div className="text-sm text-text-readable-secondary">Per Session</div>
             </div>

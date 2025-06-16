@@ -29,12 +29,11 @@ const ErrorState = ({
       
 <h3 className="text-xl font-semibold text-text-readable-primary mb-2 font-display">
         {message}
-      </h3>
+</h3>
       
-      <p className="text-surface-400 mb-6 max-w-md mx-auto">
+      <p className="text-text-readable-secondary mb-6 max-w-md mx-auto">
         {description}
       </p>
-      
       {onRetry && (
         <Button
           variant="primary"

@@ -69,16 +69,16 @@ const StatCard = ({
           {/* Value */}
           <div className="mb-2">
 <h3 className="text-2xl font-bold text-text-readable-primary font-display">
-              {value}
+{value}
             </h3>
             <p className="text-text-readable-primary text-sm">
               {title}
             </p>
           </div>
 
-          {/* Subtitle */}
+{/* Subtitle */}
           {subtitle && (
-            <p className="text-xs text-surface-400">
+            <p className="text-xs text-text-readable-secondary">
               {subtitle}
             </p>
           )}

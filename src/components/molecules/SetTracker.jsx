@@ -49,7 +49,7 @@ const SetTracker = ({
 <h3 className="text-xl font-bold text-text-readable-primary mb-1 font-display">
             {exercise.name}
           </h3>
-          <p className="text-text-readable-primary">
+<p className="text-text-readable-primary">
             Set {currentSet} of {exercise.sets}
           </p>
           <p className="text-sm text-text-readable-secondary">
@@ -105,11 +105,10 @@ const SetTracker = ({
                 value={reps}
                 onChange={(e) => setReps(e.target.value)}
                 placeholder="0"
-                className="text-center text-2xl font-bold"
+className="text-center text-2xl font-bold"
               />
 <p className="text-xs text-text-readable-secondary mt-1">reps</p>
             </div>
-            
             <Button
               variant="ghost"
               size="lg"

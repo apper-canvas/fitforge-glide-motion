@@ -22,7 +22,7 @@ const variants = {
 secondary: "bg-surface-300 text-text-readable-primary hover:bg-surface-400 focus:ring-surface-500 border border-surface-400",
     success: "bg-gradient-to-r from-success to-success text-white hover:from-success/90 hover:to-success/90 focus:ring-success shadow-lg shadow-success/25",
     danger: "bg-gradient-to-r from-error to-error text-white hover:from-error/90 hover:to-error/90 focus:ring-error shadow-lg shadow-error/25",
-    ghost: "text-surface-800 hover:text-text-readable-primary hover:bg-surface-200 focus:ring-surface-500",
+    ghost: "text-text-readable-primary hover:text-text-readable-primary hover:bg-surface-200 focus:ring-surface-500",
     outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary"
   };
 

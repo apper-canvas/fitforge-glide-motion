@@ -59,10 +59,10 @@ const ExerciseCard = ({
           ) : isActive ? (
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center animate-pulse">
               <ApperIcon name="Play" size={16} className="text-white" />
-            </div>
+</div>
           ) : (
 <div className="w-8 h-8 bg-surface-300 rounded-full flex items-center justify-center opacity-50">
-              <ApperIcon name="Clock" size={16} className="text-surface-800" />
+              <ApperIcon name="Clock" size={16} className="text-text-readable-primary" />
             </div>
           )}
         </div>
@@ -73,7 +73,7 @@ const ExerciseCard = ({
             {exercise.name}
           </h3>
 
-          {/* Exercise details */}
+{/* Exercise details */}
           <div className="flex flex-wrap gap-3 mb-3">
 <div className="flex items-center gap-1 text-text-readable-primary">
               <ApperIcon name="Repeat" size={16} />
@@ -81,13 +81,13 @@ const ExerciseCard = ({
                 {exercise.sets} × {exercise.reps}
               </span>
             </div>
-            
-            {exercise.weight > 0 && (
+{exercise.weight > 0 && (
               <div className="flex items-center gap-1 text-text-readable-primary">
                 <ApperIcon name="Weight" size={16} />
                 <span className="text-sm">{exercise.weight}kg</span>
               </div>
             )}
+)}
             
             <div className="flex items-center gap-1 text-text-readable-primary">
               <ApperIcon name="Timer" size={16} />

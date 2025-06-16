@@ -34,9 +34,9 @@ const WorkoutHeader = ({
       <div className="flex justify-between items-start mb-4">
         <div>
 <h1 className="text-2xl font-bold text-text-readable-primary mb-1 font-display">
-            Today's Workout
+Today's Workout
           </h1>
-          <p className="text-surface-300">
+          <p className="text-text-readable-secondary">
             {format(new Date(), 'EEEE, MMMM do')}
           </p>
         </div>

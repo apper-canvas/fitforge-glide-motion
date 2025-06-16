@@ -158,23 +158,22 @@ const Progress = () => {
     }
 
     return (
-      <Card>
+<Card>
         <div className="mb-4">
 <h3 className="text-lg font-semibold text-text-readable-primary font-display">
             Workout Calendar
           </h3>
-          <p className="text-sm text-surface-400">
+          <p className="text-sm text-text-readable-secondary">
             Last 6 weeks of activity
           </p>
         </div>
         
-        <div className="grid grid-cols-7 gap-1">
+<div className="grid grid-cols-7 gap-1">
           {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map(day => (
 <div key={day} className="text-xs text-text-readable-primary text-center p-1 font-medium">
               {day}
             </div>
           ))}
-          
           {days.map((day, index) => (
             <motion.div
               key={index}
@@ -193,13 +192,12 @@ const Progress = () => {
             </motion.div>
           ))}
         </div>
-        
-        <div className="flex items-center justify-between mt-4 pt-4 border-t border-surface-600">
-          <div className="flex items-center gap-2 text-xs text-surface-400">
+<div className="flex items-center justify-between mt-4 pt-4 border-t border-surface-600">
+          <div className="flex items-center gap-2 text-xs text-text-readable-secondary">
             <div className="w-3 h-3 bg-surface-700 rounded-sm"></div>
             <span>No workout</span>
           </div>
-          <div className="flex items-center gap-2 text-xs text-surface-400">
+          <div className="flex items-center gap-2 text-xs text-text-readable-secondary">
             <div className="w-3 h-3 bg-success rounded-sm"></div>
             <span>Workout completed</span>
           </div>
@@ -260,7 +258,7 @@ const Progress = () => {
             <div>
 <h1 className="text-2xl font-bold text-text-readable-primary font-display">Your Progress
                                 </h1>
-                <p className="text-surface-400">Track your fitness journey and achievements
+                <p className="text-text-readable-secondary">Track your fitness journey and achievements
                                 </p>
             </div>
             <div className="flex gap-2">
@@ -283,6 +281,7 @@ const Progress = () => {
                 color="primary"
                 trend={stats.totalWorkouts > 0 ? "up" : "neutral"}
                 trendValue={`${stats.totalWorkouts} completed`} />
+trendValue={`${stats.totalWorkouts} completed`} />
             <StatCard
                 title="Current Streak"
                 value={`${stats.currentStreak}d`}
@@ -296,7 +295,7 @@ const Progress = () => {
                 subtitle="Per workout"
                 icon="Clock"
                 color="accent" />
-            <StatCard
+<StatCard
                 title="Total Sets"
                 value={stats.totalSets}
                 subtitle={`This ${timeRange}`}
@@ -339,11 +338,11 @@ const Progress = () => {
                   `} />
                         <div>
                             <h4 className="text-sm font-medium text-white">
-                                {format(new Date(log.date), "EEEE, MMM d")}
+{format(new Date(log.date), "EEEE, MMM d")}
                             </h4>
-                            <p className="text-xs text-surface-400">
-                                {log.exercises?.length || 0}exercises • {log.duration || 0}min
-                                                    </p>
+<p className="text-xs text-text-readable-secondary">
+                                {log.exercises?.length || 0} exercises • {log.duration || 0}min
+                            </p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
@@ -402,11 +401,11 @@ const Progress = () => {
                             name={achievement.icon}
                             size={24}
                             className={achievement.unlocked ? "text-warning" : "text-surface-500"} />
-                    </div>
+</div>
                     <h4
                         className={`
                   text-sm font-medium mb-1
-                  ${achievement.unlocked ? "text-surface-950" : "text-surface-500"}
+                  ${achievement.unlocked ? "text-text-readable-primary" : "text-text-readable-secondary"}
                 `}>
                         {achievement.name}
                     </h4>

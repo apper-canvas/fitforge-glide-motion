@@ -92,7 +92,7 @@ color={isCompleted ? 'rgb(var(--color-primary))' : isRunning ? 'rgb(var(--color-
         >
           <div className="text-center">
 <div className="text-3xl font-bold text-text-readable-primary font-display">
-              {formatTime(timeRemaining)}
+{formatTime(timeRemaining)}
             </div>
             <div className="text-sm text-text-readable-secondary mt-1">
               {isCompleted ? 'Complete!' : isRunning ? 'Running' : 'Paused'}

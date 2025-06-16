@@ -212,13 +212,12 @@ const Track = () => {
           
           <div className="text-center">
             <div className="text-2xl font-bold text-primary font-display">
-              {formatTime(elapsed)}
+{formatTime(elapsed)}
             </div>
-            <div className="text-xs text-surface-400">
+            <div className="text-xs text-text-readable-secondary">
               {isPaused ? 'Paused' : 'Active'}
             </div>
           </div>
-          
           <Button
             variant="ghost"
             size="sm"
@@ -237,7 +236,7 @@ const Track = () => {
           >
             <div className="text-center">
 <div className="text-lg font-bold text-text-readable-primary font-display">
-                {currentExerciseIndex + 1}/{workout.exercises.length}
+{currentExerciseIndex + 1}/{workout.exercises.length}
               </div>
               <div className="text-xs text-text-readable-secondary">exercises</div>
             </div>
@@ -247,13 +246,12 @@ const Track = () => {
         {/* Current Exercise Info */}
         <div className="text-center">
 <h2 className="text-xl font-semibold text-text-readable-primary mb-1 font-display">
-            {currentExercise.name}
+{currentExercise.name}
           </h2>
           <p className="text-text-readable-secondary">
             Exercise {currentExerciseIndex + 1} of {workout.exercises.length}
           </p>
         </div>
-
         {/* Rest Timer or Set Tracker */}
         <AnimatePresence mode="wait">
           {isResting ? (
@@ -276,7 +274,7 @@ const Track = () => {
           )}
         </AnimatePresence>
 
-        {/* Exercise Queue */}
+{/* Exercise Queue */}
 <div className="bg-card rounded-2xl p-4 border border-surface-300">
 <h3 className="text-sm font-medium text-text-readable-primary mb-3">
             Up Next
@@ -286,9 +284,9 @@ const Track = () => {
             {workout.exercises.slice(currentExerciseIndex + 1, currentExerciseIndex + 4).map((exercise, index) => (
               <div
                 key={exercise.id}
-                className="flex items-center gap-3 py-2 px-3 bg-surface-800 rounded-lg"
+className="flex items-center gap-3 py-2 px-3 bg-surface-800 rounded-lg"
               >
-                <div className="w-8 h-8 bg-surface-700 rounded-full flex items-center justify-center text-xs font-medium text-surface-400">
+                <div className="w-8 h-8 bg-surface-700 rounded-full flex items-center justify-center text-xs font-medium text-text-readable-secondary">
                   {currentExerciseIndex + index + 2}
                 </div>
                 
@@ -311,8 +309,7 @@ const Track = () => {
             <div className="p-2 bg-accent/20 rounded-lg flex-shrink-0">
               <ApperIcon name="Lightbulb" size={16} className="text-accent" />
             </div>
-            
-            <div>
+<div>
 <h4 className="text-sm font-semibold text-text-readable-primary mb-1">
                 Form Tip for {currentExercise.name}
               </h4>
