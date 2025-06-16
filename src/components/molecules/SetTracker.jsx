@@ -123,7 +123,7 @@ const SetTracker = ({
           <div className="grid grid-cols-4 gap-2">
             {[8, 10, 12, 15].map(quickRep => (
               <Button
-                key={quickRep}
+key={quickRep}
                 variant="ghost"
                 size="sm"
                 onClick={() => setReps(quickRep.toString())}

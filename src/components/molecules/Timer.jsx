@@ -87,7 +87,7 @@ className={`bg-card rounded-2xl p-6 text-center ${className}`}
           progress={progress}
           size={140}
           strokeWidth={8}
-color={isCompleted ? '#27AE60' : isRunning ? '#27AE60' : '#27AE60'}
+color={isCompleted ? '#2980B9' : isRunning ? '#2980B9' : '#2980B9'}
           backgroundColor="#2C3E50"
         >
           <div className="text-center">
